@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    box-sizing: content-box;
+    width: 100%;
+    height: 15vh;
+    background-color:  rgb(90, 90, 90);
+}
+
+
+
+.footer {
+    box-sizing: content-box;
+    width: 100%;
+    height: 15vh;
+    background-color:  black;
+    position: fixed;
+    bottom: 0px; 
+}
+
+.left{
+    box-sizing: content-box;
+    width: 10%;
+    height: 100%;
+    background-color:  rgb(205, 205, 205);
+    position: fixed;
+    left: 0px;
+}
+
+.right{
+    box-sizing: content-box;
+    width: 10%;
+    height: 100%;
+    background-color:  rgb(205, 205, 205);
+    position: fixed;
+    right: 0px;
+}
